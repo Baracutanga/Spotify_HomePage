@@ -1,0 +1,41 @@
+.musicPlayerContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: 5rem;
+    padding: .5em;
+    // border: 1px solid white;
+    box-sizing: border-box;
+
+    .song, .player, .options {
+        display: flex;
+        // border: 1px solid white;
+        flex: 1;
+        color: white;
+    }
+
+    .song {
+        #songImg {
+            width: 3.5em;
+            height: 100%;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .songDetails {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: .5em;
+        }
+    }
+
+    .player { 
+        flex: 2;
+    }
+
+    .options {
+        
+    }
+}

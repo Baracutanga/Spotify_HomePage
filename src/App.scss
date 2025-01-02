@@ -1,3 +1,14 @@
+.geral {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
 .content {
   display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  margin-bottom: .5rem;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./styles.scss";
 import HomePlaylists from "../../icons/home.svg";
 import MinimizePlaylist from "../../icons/angle-left.svg";
@@ -12,12 +12,18 @@ const LeftPlaylists = () => {
       <div className="playlists">
         <img src={HomePlaylists} alt="" />
         <img src={MinimizePlaylist} alt="" />
-        <div className="playlist" id='first'></div>
-        <div className="playlist" id='second'></div>
-        <div className="playlist" id='third'></div>
+        <div className="playlist" id="first">
+          <span>#1</span>
+        </div>
+        <div className="playlist" id="second">
+          <span>#2</span>
+        </div>
+        <div className="playlist" id="third">
+          <span>#3</span>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LeftPlaylists
+export default LeftPlaylists;
